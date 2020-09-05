@@ -7,4 +7,5 @@ test
 5. Render the dashboard: Knit option
 6. Commit & Push
 7. Publish the docs/index.html: settings -> options -> Github Pages -> source. Select the master branch and the docs folder.
+
 https://www.r-bloggers.com/deploying-flexdashboard-on-github-pages/
