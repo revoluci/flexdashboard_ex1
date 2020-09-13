@@ -9,3 +9,4 @@ test
 7. Publish the docs/index.html: settings -> options -> Github Pages -> source. Select the master branch and the docs folder.
 
 https://www.r-bloggers.com/deploying-flexdashboard-on-github-pages/
+https://revoluci.github.io/flexdashboard_ex1/
