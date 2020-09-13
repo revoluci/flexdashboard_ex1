@@ -3,6 +3,8 @@ title: "Untitled"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
+    social: menu
+    source_code: embed
     vertical_layout: fill
 ---
 
