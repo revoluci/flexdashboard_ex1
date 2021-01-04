@@ -16,3 +16,4 @@ https://revoluci.github.io/flexdashboard_ex1/
 git reflog
 git log --oneline
 git rebase -i xxx
+git push --force origin master
