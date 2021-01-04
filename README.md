@@ -18,9 +18,11 @@ git log --oneline
 git log --name-status
 tree .
 
-git filter-branch --tree-filter 'rm -f' HEAD --all
+
+git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch .7z" --prune-empty -- --all
 git reflog expire --expire=now --all
 git gc --aggressive --prune=now
 git push --force origin master
 
 git rebase -i xxx
+git filter-branch --tree-filter 'rm -f tmp/' HEAD --all
