@@ -15,5 +15,10 @@ https://revoluci.github.io/flexdashboard_ex1/
 
 git reflog
 git log --oneline
+git log --name-status
 git rebase -i xxx
 git push --force origin master
+git filter-branch -f --tree-filter
+git gc
+
+tree .
