@@ -18,6 +18,12 @@ git log --oneline
 git log --name-status
 tree .
 
+https://dskd.jp/archives/46.html
+https://spring-mt.tumblr.com/post/25934691482/git%E6%9C%80%E5%BC%B7%E3%81%AE%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3-filter-branch
+https://gist.github.com/ktx2207/3167fa69531bdd6b44f1
+
+git filter-branch -f --index-filter "git rm -rf --ignore-unmatch tmp/" --prune-empty -- --all
+
 
 git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch .7z" --prune-empty -- --all
 git reflog expire --expire=now --all
