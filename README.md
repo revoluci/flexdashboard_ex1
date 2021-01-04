@@ -10,3 +10,9 @@ test
 
 https://www.r-bloggers.com/deploying-flexdashboard-on-github-pages/
 https://revoluci.github.io/flexdashboard_ex1/
+
+
+
+git reflog
+git log --oneline
+git rebase -i xxx
