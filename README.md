@@ -22,6 +22,8 @@ tree .
 
 ## tmpフォルダ以下の全ファイルに関するhistoryを消去
 
+最新commit（消さない）をpushする。
+
 git filter-branch -f --index-filter "git rm -rf --ignore-unmatch tmp/" --prune-empty -- --all  
 git reflog expire --expire=now --all  
 git gc --aggressive --prune=now  
