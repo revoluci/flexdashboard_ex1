@@ -35,3 +35,4 @@ https://gist.github.com/ktx2207/3167fa69531bdd6b44f1
 git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch tmp/" --prune-empty -- --all  
 git filter-branch --tree-filter 'rm -f tmp/' HEAD --all  
 git rebase -i xxx  
+
